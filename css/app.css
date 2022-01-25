@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+  color: black;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+h2 {
+  -webkit-text-stroke: 0.8px rgb(197, 0, 0);
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal {
+  display: none;
+  background: linear-gradient(#9198e5, rgb(140, 218, 140));
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  border-radius: 25px;
+  max-width: 420px;
+}
+
+.modal button {
+  background-color: rgba(81, 3, 88, 0.582);
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+  border: 2px solid lightsteelblue;
+}
